@@ -92,17 +92,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!-- TODO step 4 Spring Cloud Contract Verifier Maven plugin
-				Have the plugin generate the stubs by running:
-				    mvn clean install –DskipTests
-
-				Look at some of the configuration options for the plugin:
-					http://cloud.spring.io/spring-cloud-static/spring-cloud-contract/2.0.0.RC1/single/spring-cloud-contract.html#maven-configuration-options
-					- testMode: Defines the mode for acceptance tests (default: MockMvc, which is based on Spring’s MockMvc).
-					- basePackageForTests: Specifies the base package for all generated tests
-					- contractsDirectory: Specifies a directory containing contracts written with the GroovyDSL (default directory is /src/test/resources/contracts)
-					- packageWithBaseClasses: Defines a package where all the base classes reside
-            -->
 			<plugin>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
